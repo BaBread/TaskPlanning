@@ -1,15 +1,6 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-let nineAMEl = $('#hour-9')
-let tenAMEl = $('#hour-10')
-let elevenAMEl = $('#hour-11')
-let twelvePMEl = $('#hour-12')
-let onePMEl = $('#hour-13')
-let twoPMEl = $('#hour-14')
-let threePMEl = $('#hour-15')
-let fourPMEl = $('#hour-16')
-let fivePMEl = $('#hour-17')
 let showDayEl = $('#currentDay')
 let today = dayjs();
 let saveBtn = $('.saveBtn')

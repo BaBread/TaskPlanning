@@ -34,7 +34,7 @@ The Work Day Scheduler is a web application that allows you to schedule and mana
 8. You can update or remove a saved task by modifying the textarea and clicking the save button again.
 
 [Repo](https://github.com/BaBread/TaskPlanning)
-[CampQuiz GitPages](https://babread.github.io/TaskPlanning/)
+[TaskPlanning GitPages](https://babread.github.io/TaskPlanning/)
 
 ## Screenshot
 

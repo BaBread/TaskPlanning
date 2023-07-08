@@ -1,99 +1,54 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+A simple calendar app for scheduling your work day.
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Description
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+The Work Day Scheduler is a web application that allows you to schedule and manage your tasks throughout the work day. The app provides a user-friendly interface where you can enter and save task descriptions for each hour of the day. The time blocks are color-coded to indicate whether they are in the past, present, or future based on the current time.
 
-## User Story
+## Features
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+- Displays the current date and time at the top of the page.
+- Time blocks for each hour of the work day, starting from 9AM to 5PM.
+- Color-coded time blocks to indicate past, present, and future hours.
+- User can enter and save task descriptions for each hour.
+- User's input is saved locally and persists even after page reload.
+- Responsive design with support for different screen sizes.
 
-## Acceptance Criteria
+## Technologies Used
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+- HTML
+- CSS (Bootstrap 5)
+- JavaScript (jQuery)
+- Day.js (JavaScript date library)
 
-The following animation demonstrates the application functionality:
+## Usage
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+1. Open the [Work Day Scheduler](index.html) in your web browser.
+2. The current date and time will be displayed at the top of the page.
+3. Each time block represents an hour of the work day.
+4. Enter your task description in the corresponding textarea.
+5. Click the save button (floppy disk icon) to save your task.
+6. The saved task will persist even after page reload.
+7. The color of the time block will indicate whether it's in the past, present, or future.
+8. You can update or remove a saved task by modifying the textarea and clicking the save button again.
 
-## Grading Requirements
+[Repo](https://github.com/BaBread/TaskPlanning)
+[CampQuiz GitPages](https://babread.github.io/CampQuiz/)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Screenshot
 
-This Challenge is graded based on the following criteria:
+Features Screenshot -![Features](/assets/myScreenshot.jpg)
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Credits
 
-  * Uses a date utility library to work with date and time
+- [Bootstrap](https://getbootstrap.com) - CSS framework for styling and layout.
+- [Font Awesome](https://fontawesome.com) - Icons used for save button.
+- [Day.js](https://day.js.org) - JavaScript library for parsing, manipulating, and formatting dates.
+- ChatGPT for writing the README
 
-### Deployment: 32%
+## License
 
-* Application deployed at live URL
+The Work Day Scheduler is open source and available under the [MIT License](LICENSE).
 
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
